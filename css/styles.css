@@ -22,9 +22,9 @@ a {
 color: #4d5ae5;
 }
 .accent-logo {
-    color: #2e2f42;
+color: #2e2f42;
 }
-.accent-logo2 {
+.accent-logo-foot {
     color: #f4f4fd;
 }
 .menu .link {
@@ -44,7 +44,10 @@ color: #4d5ae5;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
-        font-style: normal;
+       
+}
+.contacts{
+    font-style: normal;
 }
 .contacts .link:focus,
 .contacts .link:hover{
@@ -63,12 +66,13 @@ color: #4d5ae5;
         text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
 .text-button {
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.04em;
         color: #fff;
-        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+     
             background: #4d5ae5;
     cursor: pointer;
 }
@@ -77,16 +81,20 @@ color: #4d5ae5;
     background: #404bbf;
 }
 .section-benefits .name {
-    font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        color: #2e2f42;
+font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
 }
        
 
 .section-benefits .text {
-  
+    font-weight: 400;
+        font-size: 16px;
+line-height: 1.5;
+    letter-spacing: 0.02em;
         color: #434455;
 }
 
@@ -105,7 +113,7 @@ font-weight: 700;
     text-transform: capitalize;
 }
 .list-team {
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  
     background-color: #FFFFFF
        
 }
@@ -131,11 +139,11 @@ text-align: center;
     background: #fff;
 }
 .portfolio .name {
-    font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        color: #2e2f42;
+font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 .portfolio .text {
     font-weight: 400;
@@ -148,6 +156,7 @@ text-align: center;
     background: #2e2f42;
 }
 .footer .text-footer {
-
+line-height: 1.5;
+    letter-spacing: 0.02em;
     color: #f4f4fd;
 }
